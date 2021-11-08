@@ -152,13 +152,15 @@ aside ul li a:hover {
    top: 60%;
   }
 }
+@media(max-width: 666px){
+  .linding .container .layout {
+    flex-direction: column;
+   }
+}
 @media (max-width: 991px) {
   .linding .container .path .top,
   .linding .container .path .bottom {
     width: 300px;
-  }
-  .linding .container .layout {
-    flex-direction: column;
   }
   .linding .container .layout .content .text h2 {
     font-size: 50px;
